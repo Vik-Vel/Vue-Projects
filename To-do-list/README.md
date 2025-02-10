@@ -46,3 +46,7 @@ npm run dev
  ├── package.json
  ├── README.md
 ```
+
+## 🎨 Sample Screenshot
+
+![Screenshot](https://i.ibb.co/s9psw237/2025-02-10-222602.png)
