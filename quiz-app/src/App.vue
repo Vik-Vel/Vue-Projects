@@ -19,7 +19,7 @@ body {
 .app {
   max-width: 600px;
   margin: 2rem auto;
-  background: black;
+  background: white;
   padding: 2rem;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
