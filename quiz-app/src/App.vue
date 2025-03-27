@@ -1,6 +1,5 @@
 <template>
   <div class="app">
-    <h1>Vue Quiz</h1>
     <Quiz />
   </div>
 </template>

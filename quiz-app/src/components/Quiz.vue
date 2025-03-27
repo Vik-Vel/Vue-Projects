@@ -2,7 +2,7 @@
   <div class="quiz-container">
     <!-- Начален екран с избор на брой въпроси -->
     <div v-if="!gameStarted" class="start-screen">
-      <h1>Vue Quiz</h1>
+      <h1>Българска история и култура</h1>
       <p>Изберете брой въпроси:</p>
       <div class="question-count-options">
         <button v-for="count in [5, 10, 15, 20]" :key="count" @click="setQuestionCount(count)" class="count-option"
@@ -18,7 +18,7 @@
     <!-- Екран с въпросите -->
     <div v-else-if="current < selectedQuestions.length" class="quiz-active">
       <div class="quiz-header">
-        <h1>Vue Quiz</h1>
+        <h1>Българска история</h1>
         <div class="progress-container">
           <div class="progress-bar">
             <div class="progress-fill" :style="{ width: `${(current / selectedQuestions.length) * 100}%` }"></div>
