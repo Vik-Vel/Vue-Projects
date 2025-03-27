@@ -28,7 +28,7 @@ Whether you're a student, teacher, or simply interested in Bulgaria, this quiz o
 
 ```bash
 # Clone the repository
-git clone https://github.com/vik-vel/quiz-app.git
+git clone https://github.com/Vik-Vel/Vue-Projects/tree/main/quiz-app
 
 # Navigate to the directory
 cd quiz-app
